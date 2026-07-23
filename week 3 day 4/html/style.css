@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box; /* Ketentuan Wajib: Dimensi & Box Sizing */
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff; /* Satuan Warna 1: HEX */
+}
+
+#hero-section {
+    width: 100%;
+    height: 100vh; /* Ketentuan Wajib: Satuan vh & tinggi jelas */
+  
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+                      url('https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=1350&q=80');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    color: hsl(0, 0%, 85%); 
+}
+
+.skills-section {
+    width: 100%;
+    min-height: 400px;
+    padding: 60px 20px;
+    
+    background-color: hsl(220, 20%, 15%); 
+    
+    text-align: center;
+}
+
+.section-title h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.decorative-pattern {
+    width: 100%;
+    height: 15px;
+    margin-bottom: 40px;
+   
+    background-image: url('https://www.transparenttextures.com/patterns/zigzag.png');
+    background-repeat: repeat-x;
+    background-position: top center;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.skill-card {
+    background-color: hsl(220, 20%, 25%); /* HSL versi lebih terang */
+    padding: 20px 40px;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+footer {
+    width: 100%;
+    height: 350px;
+    
+    background: #1a1a2e url('https://images.unsplash.com/photo-1423666639041-f56000c27a9a?auto=format&fit=crop&w=800&q=80') no-repeat center / contain;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-card {
+    padding: 40px;
+    border-radius: 12px;
+    text-align: center;
+    max-width: 500px;
+}
+
+.contact-card h2 {
+    margin-bottom: 15px;
+}
+
+.contact-card p {
+    margin-bottom: 20px;
+    color: #cccccc;
+}
+
+.btn-contact {
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: #00adb5;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
